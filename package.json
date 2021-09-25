@@ -16,11 +16,14 @@
     "typescript": "^4.3.5",
     "web-vitals": "^1.1.2"
   },
+  "homepage": "https://semon307.github.io/TodoListClassComponents",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
